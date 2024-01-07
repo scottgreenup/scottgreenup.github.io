@@ -1,17 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <style>
-      body {
-        text-align: center;
-      }
-    </style>
+    <title>Scott Greenup</title>
+    <link rel="stylesheet" href="/static/css/landing.css">
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
   </head>
   <body>
-    <h1>Redirecting to... <br /> <a href="http://scottgreenup.com">http://scottgreenup.com/</a></h1>
+
+    <section>
+      <h1>Scott Greenup</h1>
+
+      <nav>
+        <a href="https://www.linkedin.com/in/scottgreenup/">About</a>
+        <a href="https://github.com/scottgreenup">Portfolio</a>
+        <a href="https://dev.to/scottgreenup">Blog</a>
+      </nav>
+
+      <table>
+        <tr>
+          <td><img src="/static/img/icon/browser.png" /></td>
+          <td><img src="/static/img/icon/technology.png" /></td>
+          <td><img src="/static/img/icon/security.png" /></td>
+          <td><img src="/static/img/icon/game-controller.png" /></td>
+          <td><img src="/static/img/icon/worldwide.png" /></td>
+        </tr>
+        <tr>
+          <td><h3>Software Development</h3></td>
+          <td><h3>Cloud Infrastructure</h3></td>
+          <td><h3>Security</h3></td>
+          <td><h3>Games Development</h3></td>
+          <td><h3>Network Engineer</h3></td>
+        </tr>
+      </table>
+    </section>
+
+    <div id="copyright">
+      <p>Icons designed by <a href="http://www.freepik.com/">Freepik</a> and distributed by <a href="http://www.flaticon.com/">Flaticon</a>. Image from <a href="https://www.nasa.gov/image-feature/space-station-flyover-of-the-mediterranean/">NASA</a></p>
+      <p>Scott Greenup &copy; <span id="current-year"></span></p>
+    </div>
+
+    <div style="margin: 0 auto; width: 100%; text-align: center;">
+      <p>I love Kanykey. Она моя капуста.</span></p>
+    </div>
 
     <script>
-      window.location = "http://scottgreenup.com";
+      document.getElementById("current-year").innerHTML = new Date().getFullYear();
     </script>
+
   </body>
 </html>
