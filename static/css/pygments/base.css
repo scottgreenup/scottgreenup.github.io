@@ -1,0 +1,15 @@
+
+
+
+code, pre {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 0.90em;
+}
+
+pre {
+  max-width: 768px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0.6em;
+  border: 1px solid #f0f0f0;
+}

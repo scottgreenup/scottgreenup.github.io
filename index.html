@@ -1,17 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <style>
-      body {
-        text-align: center;
-      }
-    </style>
+    <title>Scott Greenup</title>
+    <link rel="stylesheet" href="/static/css/landing.css">
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
   </head>
   <body>
-    <h1>Redirecting to... <br /> <a href="http://scottgreenup.com">http://scottgreenup.com/</a></h1>
+
+    <section>
+      <h1>Scott Greenup</h1>
+
+      <nav>
+        <a href="https://www.linkedin.com/in/scottgreenup/">About</a>
+        <a href="https://github.com/scottgreenup">Portfolio</a>
+        <a href="https://dev.to/scottgreenup">Blog</a>
+      </nav>
+    </section>
+
+    <div id="copyright">
+      <p>Image from <a href="https://www.nasa.gov/image-feature/space-station-flyover-of-the-mediterranean/">NASA</a></p>
+      <p>Scott Greenup &copy; <span id="current-year"></span></p>
+    </div>
 
     <script>
-      window.location = "http://scottgreenup.com";
+      document.getElementById("current-year").innerHTML = new Date().getFullYear();
     </script>
+
   </body>
 </html>
